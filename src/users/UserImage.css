@@ -1,0 +1,11 @@
+.imageStyle{
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+    transition: 1s all;
+}
+
+.imageStyle:hover{
+    transform: scale(1.2); 
+    box-shadow: 0 0 5pt 2pt red;
+}

@@ -2,8 +2,11 @@
 export default (state='',action)=>{
    switch (action.type) { 
        case 'FETCH':
-        return 'FETCH SUCCESSFULLY'
+        return action.user.data.results;
+       case 'USER_FETCH_FAILED':
+        
+         return action.message;
        default:
-        return state="Test Again";
+        return state;
    }
 }

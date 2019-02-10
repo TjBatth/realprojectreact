@@ -1,0 +1,19 @@
+.listStyle{
+    list-style: none;   
+}
+
+.userStyle{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.userOuter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
